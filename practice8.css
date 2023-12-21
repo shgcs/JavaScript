@@ -1,0 +1,39 @@
+.w1 {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+
+.w2 {
+    margin: 0;
+    padding: 0;
+    background-color: green;
+
+}
+
+.www {
+
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    padding: auto;
+    background: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 20%;
+
+}
+
+.ww {
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    padding: auto;
+    background: blue;
+    height: 160px;
+    width: 120px;
+    border-radius: 30px;
+
+}

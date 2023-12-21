@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exercise7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Montserrat:wght@900&display=swap"
+        , rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="div1">
+        <h1 id="password">Password Generator App</h1>
+        <h4></h4>
+        <form action="" method="post">
+            <label id="input">Enter Your Favourite Word to Generate Password :</label>
+            <input type="password" name="p1" id="p1">
+            <input type="button" value="Submit" class="i1">
+        </form>
+        <br>
+        <span class="t1">Strong Password : </span><span class="m1" id="myInput1"></span>
+        <div class="tooltip">
+            <button onclick="myFunction1()" onmouseout="outFunc1()">
+                <span class="tooltiptext" id="myTooltip1">Copy to clipboard</span>
+                Copy text
+            </button>
+        </div>
+
+        <br><br>
+        <span class="t2">Weak Password : </span><span class="m2" id="myInput2"></span>
+        <div class="tooltip">
+            <button onclick="myFunction2()" onmouseout="outFunc2()">
+                <span class="tooltiptext" id="myTooltip2">Copy to clipboard</span>
+                Copy text
+            </button>
+        </div>
+        <br><br>
+        <span class="t3">Super Strong Password : </span><span class="m3" id="myInput3"></span>
+        <div class="tooltip">
+            <button onclick="myFunction3()" onmouseout="outFunc3()">
+                <span class="tooltiptext" id="myTooltip3">Copy to clipboard</span>
+                Copy text
+            </button>
+        </div>
+        <br><br>
+        <span class="t4">Funny Password : </span><span class="m4" id="myInput4"></span>
+        <div class="tooltip">
+            <button onclick="myFunction4()" onmouseout="outFunc4()">
+                <span class="tooltiptext" id="myTooltip4">Copy to clipboard</span>
+                Copy text
+            </button>
+        </div>
+
+    </div>
+
+    <script src="exercise7.js"></script>
+    <script>
+        
+         function myFunction1() {
+             var copyText = document.getElementById("myInput1");
+             navigator.clipboard.writeText(copyText.textContent);
+             var tooltip = document.getElementById("myTooltip1");
+             tooltip.innerHTML = "Copied: " + copyText.textContent;
+         }
+ 
+         function outFunc1() {
+             var tooltip = document.getElementById("myTooltip1");
+             tooltip.innerHTML = "Copy to clipboard";
+         }
+
+        function myFunction2() {
+            var copyText = document.getElementById("myInput2");
+            navigator.clipboard.writeText(copyText.textContent);
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copied: " + copyText.textContent;
+        }
+
+        function outFunc2() {
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+
+        function myFunction3() {
+            var copyText = document.getElementById("myInput3");
+            navigator.clipboard.writeText(copyText.textContent);
+            var tooltip = document.getElementById("myTooltip3");
+            tooltip.innerHTML = "Copied: " + copyText.textContent;
+        }
+
+        function outFunc3() {
+            var tooltip = document.getElementById("myTooltip3");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+
+        function myFunction4() {
+            var copyText = document.getElementById("myInput4");
+            navigator.clipboard.writeText(copyText.textContent);
+            var tooltip = document.getElementById("myTooltip4");
+            tooltip.innerHTML = "Copied: " + copyText.textContent;
+        }
+
+        function outFunc4() {
+            var tooltip = document.getElementById("myTooltip4");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

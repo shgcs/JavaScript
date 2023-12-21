@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    text-shadow: #3498db;
+    font-size: 3em;
+}
+
+p {
+     
+    width: 800px;
+    height: 30px;
+    padding: 20px;
+    font-size: 3rem;
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+
+
+}
+
+p:hover {
+    background-color: #2980b9;
+}
+
+ p{
+    text-align: center;
+}
+.btn{
+    
+   align-items: center;
+}
