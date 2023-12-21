@@ -1,0 +1,73 @@
+#id4 {
+
+    font-size: 40px;
+    margin-left: -1336px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+    color: green;
+}
+
+#id1 {
+    margin-top: 105px;
+    text-align: left;
+    font-size: 140px;
+}
+
+#id2 {
+    margin-top: 105px;
+    text-align: left;
+    font-size: 140px;
+}
+
+#id3 {
+    margin-top: 105px;
+    text-align: left;
+    font-size: 140px;
+}
+
+#hh1 {
+    margin-top: 300px;
+    font-size: 100px;
+    padding-left: 15px;
+    color: white;
+}
+
+#hh2 {
+    margin-top: 300px;
+    font-size: 100px;
+    padding-left: 310px;
+    color: white;
+
+}
+
+#hh3 {
+    margin-top: 300px;
+    font-size: 100px;
+    padding-left: 400px;
+    color: white;
+
+
+}
+
+#d1 {
+    margin-top: 35px;
+    color: white;
+
+}
+
+.c1 {
+    color: coral;
+}
+
+.c2 {
+    color: coral;
+}
+
+.c3 {
+    color: coral;
+}
