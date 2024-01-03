@@ -35,10 +35,3 @@ app.listen(port, () => {
 
 //nodemon .\file_name
 
-cast validity
-username = shubhamgaikwad@gmail.com
-password = 1236HTEA 
-
-mahaonline
-username = shubhamgaikwad4185
-password = 123#HTea
