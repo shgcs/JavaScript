@@ -104,7 +104,7 @@ let button = () => {
 
         if (value1 == obj.getHours() && value2 == obj.getMinutes() && value3 == AMorPM && obj.getSeconds() == 0) {
 
-            var audio = new Audio('alarm_sound.mp3');
+            var audio = new Audio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3');
             audio.play();
             alert("Alram");
             n = 600000;
